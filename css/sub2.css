@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+  padding: 0; margin: 0; box-sizing: border-box;
+}
+img{max-width: 100%;}
+
+/* .sub-banner */
+.sub-banner {position: relative;}
+.sub-banner img {width: 100vw; height: 600px;}
+.sub-banner h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 55px; color: #fff; font-weight: 500; font-family: 'Oswald'; letter-spacing: 10px;}
+.sub-inner {width: 1400px; margin: 0 auto;}
+
+
+/* room-acc */
+.room-acc {}
+.room-acc .title h3 {font-size: 40px; font-weight: 400; line-height: 2; letter-spacing: 2; text-align: center; color: rgb(91, 75, 70); margin: 80px 0;}
+.room-acc h4{font-size: 40px; font-weight: 400; display: flex; justify-content: space-between; align-items: center; margin: 80px 0;}
+.room-acc h4>span {font-size: 16px; padding: 10px 30px; color: rgb(174, 141, 115); border: 1px solid rgb(174, 141, 115); cursor: pointer;}
+.room-map {max-width: 100%;}
+.sub-room ul{ display: flex;flex-wrap: wrap; width: 100%; justify-content: space-between;}
+.sub-room ul:last-child{margin-bottom: 100px;}
+.sub-room ul>li {width: calc(50% - 30px); margin-bottom: 80px;}
+.sub-room ul>li img{object-position: center center; object-fit: cover; height: 400px;}
+.sub-room-text {display: flex; margin-top: 30px; justify-content: space-between; align-items: center; font-size: 26px; font-weight: 400; color: rgb(40, 40, 40);}
+.sub-room-text>span {font-size: 16px; color: rgb(91, 75, 70);}
+.room-title {display: flex;justify-content: space-around; align-items: center;}
+.room-title ul {width: 50%; text-align: center; border: 1px solid rgb(174, 141, 115); width: 500px; margin-bottom: 80px;}
+.room-title ul li:first-child{background: rgb(248, 246, 245);line-height: 2; font-size: 26px; font-weight: 500; text-align: center; color: rgb(91, 75, 70);}
+.room-title ul li:last-child{padding: 50px;color: rgb(91, 75, 70);}

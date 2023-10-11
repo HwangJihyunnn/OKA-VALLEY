@@ -1,0 +1,95 @@
+  #wrap{max-width: 1024px; overflow: hidden;}
+
+/* 공통 */
+.contents1, .contents2, .contents3, .contents4, .contents5, .contents6 {margin-top: 60px; max-width: 64rem;}
+.con_title {padding: 0 30px;}
+.con_title h2 {font-size: 28px;}
+.con_title img{max-width: 25px; max-height: 25px;}
+.room-text {margin: 300px 0 0 30px;}
+.room-text .r-big {font-size: 20px;}
+.room-text .story {width: 100%;font-size: 15px; height: 50px;}
+.room-text .btn {padding: 10px 60px; margin-top: 30px; font-size: 13px;}
+.img-hover:hover, .event-hover:hover, .golf-hover:hover {background: rgba(30, 17, 5, 0.7);}
+.btn {font-size: 13px;}
+
+
+
+
+/* header */
+.stairs-btn {display: none;}
+header {background: none;max-width: 1024px; padding: 10px;}
+header .logo {display: flex; justify-content: space-around; width: 100%; position: relative;}
+header .logo a {width: 100%;font-size: 0; }
+nav{display: none;}
+.h-right {display: none;}
+.mobile-login, .mobile-menu {display: block; filter: invert(100%); top: 20px;}
+
+/* .slide */
+.slide ul li, .slide ul, .slide {height: 100vh;}
+.slider-btn {bottom: 70px;}
+
+/* 스페셜오퍼 */
+.pack>.title {top: 80px;}/
+.pack>.title h2 {font-size: 22px;}
+.pack>.title img {width: 20px; height: 20px;}
+.prev-next>p,.prev-prev>p {font-size: 0; padding: 5px;}
+.special {background-size: 100%;}
+
+
+/* room */
+.room {flex-direction: column;justify-content:start; }
+.room img {height: 400px;}
+.left-bg {height: 500px;width: 400px;}
+.room-text {margin: 0; padding: 30px;}
+.r-text {margin-left: 20px; margin: 0; padding: 30px;}
+
+/* 다이닝 */
+.right-bg{height: 500px; float: none;  margin-right: 50px; width: 400px;}
+.dining {flex-direction: column;justify-content:start; margin-right: 20px;}
+.dining img{height: 400px;}
+
+/* 액티비티 */
+.contents3{ width: 100%; display: block;padding: 0 10px;}
+.imgbox {width: 100%;height: 200px;  margin-bottom: 20px; position: relative;}
+.imgbox img { width: 100%; height: 100%; }
+.img-hover {display: block; width: 100%; height: 100%; }
+.img-hover>.img-text{margin-top: 0; font-size: 14px;}
+.contents3>.activity h3 {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #fff;}
+.contents3>.activity:hover h3 {opacity: 0;}
+.activity {flex-direction: column;}
+
+
+/* 산책로 */
+.contents4 {position: inherit; width: 100%; position: relative; }
+.walking {flex-direction: column;justify-content:start; position: inherit; width: 100%; position: absolute;}
+.walking img{height: 400px;}
+
+
+/* 골프 */
+.contents5 {height: 100%;}
+.golf-hover {display: block;}
+.golf-box img {width: 100%; height: 400px;}
+.golf-hover {opacity: 1; background: none;}
+
+/* 이벤트 */
+.contents6{ width: 100%; display: block;padding: 0 10px;}
+.contents6> .con_title h2>span {font-size: 16px; display: block; padding-left: 0; line-height: 3;}
+.event {display: block;}
+.event-box{height: 300px;}
+.event-box h3{display: none;}
+.event-hover {width: 100%; height: 100%;}
+.event-big {font-size: 18px; margin-top: 30px;}
+.event-text {font-size: 14px;}
+.event-hover {opacity: 1; background: none; text-shadow: 1px 2px 10px #333;}
+
+
+
+/* footer */
+footer {height: 600px; display: block;}
+.f-left, .f-right {width: 100%; display: block; height: 100%;}
+.f-left {height: 300px;}
+.f-right .link {display: block; height: 150px;}
+.f-right .link > span {display: inline-block; width: 50%; color: #ccc;}
+.fmaily { display: block; height: 100%;}
+.fmaily .sns {display: flex; justify-content: space-around;}
+.f-right select {width: 100%;}
